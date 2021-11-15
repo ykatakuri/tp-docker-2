@@ -22,3 +22,8 @@ Explication de la commande précédente:
 - `docker build` - Permet de constuire une image
 - `-t ma_super_app` - Donne le nom `ma_super_app` à notre image
 - `.` - Signifie que le contexte dans lequel sera build cette image est le repertoire courant. Autrement dit, tout ce qui est copié dans l'image le sera de manière relative au reperoire courant
+
+Pour visualiser le container créé:
+```bash
+$ docker container ls
+```
