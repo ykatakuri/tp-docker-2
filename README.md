@@ -27,3 +27,14 @@ Pour visualiser le container créé:
 ```bash
 $ docker container ls
 ```
+
+## Question 4
+
+Le fichier `docker-compose.yml` permet de décrire les conteneurs, appelés service dans le cas de docker-compose, qui définissent une application.
+
+```bash
+# Démarre tous les conteneurs tel que spécifié dans le fichier docker-compose.yml
+$ docker-compose up -d
+``` 
+
+L'option `-d` nous permet d'éxecuter le container en background
